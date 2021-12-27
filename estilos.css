@@ -21,3 +21,22 @@ a {
     flex-wrap: wrap;
     justify-content: center;
 }
+
+.contenedor-tarjeta {
+    margin: 20px;
+}
+
+.contenedor-tarjeta a {
+    display: inline-block;
+}
+
+figure {
+    width: 300px;
+    height: 350px;
+    margin: 0;
+    position: relative;
+    transition: all ease .5s;
+    transform-style: preserve-3d;
+    transform:perspective(600px) rotateY(0deg);
+}
+
