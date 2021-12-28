@@ -71,8 +71,54 @@ figure .trasera {
     background: #373B44;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.contenedor-tarjeta:nth-child(1) figure .trasera {
+    background: rgba(242,223,13,0.95);
+background: -moz-linear-gradient(top, rgba(242,223,13,0.95) 0%, rgba(242,223,13,0.96) 0%, rgba(242,223,13,0.96) 1%, rgba(11,79,161,0.96) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(242,223,13,0.95)), color-stop(0%, rgba(242,223,13,0.96)), color-stop(1%, rgba(242,223,13,0.96)), color-stop(100%, rgba(11,79,161,0.96)));
+background: -webkit-linear-gradient(top, rgba(242,223,13,0.95) 0%, rgba(242,223,13,0.96) 0%, rgba(242,223,13,0.96) 1%, rgba(11,79,161,0.96) 100%);
+background: -o-linear-gradient(top, rgba(242,223,13,0.95) 0%, rgba(242,223,13,0.96) 0%, rgba(242,223,13,0.96) 1%, rgba(11,79,161,0.96) 100%);
+background: -ms-linear-gradient(top, rgba(242,223,13,0.95) 0%, rgba(242,223,13,0.96) 0%, rgba(242,223,13,0.96) 1%, rgba(11,79,161,0.96) 100%);
+background: linear-gradient(to bottom, rgba(242,223,13,0.95) 0%, rgba(242,223,13,0.96) 0%, rgba(242,223,13,0.96) 1%, rgba(11,79,161,0.96) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2df0d', endColorstr='#0b4fa1', GradientType=0 );
+
+    
+}
+
+.contenedor-tarjeta:nth-child(2) figure .trasera {
+    background: rgba(5,156,219,0.99);
+    background: -moz-linear-gradient(top, rgba(5,156,219,0.99) 0%, rgba(5,156,219,1) 0%, rgba(5,156,219,1) 1%, rgba(41,95,118,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(5,156,219,0.99)), color-stop(0%, rgba(5,156,219,1)), color-stop(1%, rgba(5,156,219,1)), color-stop(100%, rgba(41,95,118,1)));
+    background: -webkit-linear-gradient(top, rgba(5,156,219,0.99) 0%, rgba(5,156,219,1) 0%, rgba(5,156,219,1) 1%, rgba(41,95,118,1) 100%);
+    background: -o-linear-gradient(top, rgba(5,156,219,0.99) 0%, rgba(5,156,219,1) 0%, rgba(5,156,219,1) 1%, rgba(41,95,118,1) 100%);
+    background: -ms-linear-gradient(top, rgba(5,156,219,0.99) 0%, rgba(5,156,219,1) 0%, rgba(5,156,219,1) 1%, rgba(41,95,118,1) 100%);
+    background: linear-gradient(to bottom, rgba(5,156,219,0.99) 0%, rgba(5,156,219,1) 0%, rgba(5,156,219,1) 1%, rgba(41,95,118,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#059cdb', endColorstr='#295f76', GradientType=0 );
 
 
+}
+.contenedor-tarjeta:nth-child(3) figure .trasera {
+    background: rgba(248,80,50,0.96);
+    background: -moz-linear-gradient(top, rgba(248,80,50,0.96) 0%, rgba(248,80,50,1) 0%, rgba(228,5,13,1) 1%, rgba(246,41,12,1) 51%, rgba(228,5,13,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(248,80,50,0.96)), color-stop(0%, rgba(248,80,50,1)), color-stop(1%, rgba(228,5,13,1)), color-stop(51%, rgba(246,41,12,1)), color-stop(100%, rgba(228,5,13,1)));
+    background: -webkit-linear-gradient(top, rgba(248,80,50,0.96) 0%, rgba(248,80,50,1) 0%, rgba(228,5,13,1) 1%, rgba(246,41,12,1) 51%, rgba(228,5,13,1) 100%);
+    background: -o-linear-gradient(top, rgba(248,80,50,0.96) 0%, rgba(248,80,50,1) 0%, rgba(228,5,13,1) 1%, rgba(246,41,12,1) 51%, rgba(228,5,13,1) 100%);
+    background: -ms-linear-gradient(top, rgba(248,80,50,0.96) 0%, rgba(248,80,50,1) 0%, rgba(228,5,13,1) 1%, rgba(246,41,12,1) 51%, rgba(228,5,13,1) 100%);
+    background: linear-gradient(to bottom, rgba(248,80,50,0.96) 0%, rgba(248,80,50,1) 0%, rgba(228,5,13,1) 1%, rgba(246,41,12,1) 51%, rgba(228,5,13,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', endColorstr='#e4050d', GradientType=0 );
+
+}
+
+.contenedor-tarjeta:nth-child(4) figure .trasera {
+    background: rgba(228,44,59,0.99);
+background: -moz-linear-gradient(top, rgba(228,44,59,0.99) 0%, rgba(228,44,59,1) 0%, rgba(228,44,59,1) 1%, rgba(32,43,67,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(228,44,59,0.99)), color-stop(0%, rgba(228,44,59,1)), color-stop(1%, rgba(228,44,59,1)), color-stop(100%, rgba(32,43,67,1)));
+background: -webkit-linear-gradient(top, rgba(228,44,59,0.99) 0%, rgba(228,44,59,1) 0%, rgba(228,44,59,1) 1%, rgba(32,43,67,1) 100%);
+background: -o-linear-gradient(top, rgba(228,44,59,0.99) 0%, rgba(228,44,59,1) 0%, rgba(228,44,59,1) 1%, rgba(32,43,67,1) 100%);
+background: -ms-linear-gradient(top, rgba(228,44,59,0.99) 0%, rgba(228,44,59,1) 0%, rgba(228,44,59,1) 1%, rgba(32,43,67,1) 100%);
+background: linear-gradient(to bottom, rgba(228,44,59,0.99) 0%, rgba(228,44,59,1) 0%, rgba(228,44,59,1) 1%, rgba(32,43,67,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e42c3b', endColorstr='#202b43', GradientType=0 );
 }
 
 figure .trasera .titulo {
